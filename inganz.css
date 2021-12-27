@@ -11,7 +11,11 @@
 }
 .top{
     background: #fff;
+    display: flex;
+    justify-content: space-between;
+
 }
+
 .topbar{
     background: #fff; 
     padding: 10px;
@@ -94,31 +98,15 @@
     position: relative;
 }
 .icon {
-    padding: 5px;
+    
     font-size: 27px;
     text-indent: 8px;
-    vertical-align: middle;   
+    text-align: center;
+
 }
-.parent .icon #play{
-    border: 1px solid grey;
-}
-.parent .icon #backward{
-    border: 1px solid grey;
-}
-.parent .icon #stop{
-    border: 1px solid grey;
-}
-.parent .icon #forward{
-    border: 1px solid grey;
-}
-.parent .icon #screen{
-    border: 1px solid grey;
-}
-.parent .icon #list{
-    border: 1px solid grey;
-}
-.parent .icon #repeat{
-    border: 1px solid grey;
+.gentil{
+    border: 1px solid black;
+    padding: 7px 6px 0 0;
 }
 .parent .volume{
     display:inline-block;
