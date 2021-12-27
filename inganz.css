@@ -91,28 +91,34 @@
     border-radius: 3px;
 }
 
-.parent{
+/* .parent{
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: relative;
-}
+    justify-content: flex-start;
+    width: 100%;
+} */
 .icon {
-    
+    display: inline-block;
     font-size: 27px;
     text-indent: 8px;
     text-align: center;
-
 }
 .gentil{
     border: 1px solid black;
     padding: 7px 6px 0 0;
 }
 .parent .volume{
-    display:inline-block;
-    margin-left: auto;
-    text-indent: 430px;
     font-size: 27px;
+    display: inline-block;
+    margin-right: auto;
 }
 
+
+@media only screen and (max-width: 600px) {
+
+    .parent .icon{
+    
+    }
+    
+    }
 
