@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.container{
+    background: #f1ebeb;
+    font-family: sans-serif;
+    height: 620px;
+    
+}
+.top{
+    background: #fff;
+}
+.topbar{
+    background: #fff; 
+    padding: 10px;
+}
+.topbar a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    
+}
+.topbar a:hover{
+    color: #07080f;
+    background: rgb(116, 177, 173);
+}
+.liste{
+    display: flex;
+    justify-content: space-between;
+}
+.liste .ensemble .mdi a{
+    font-style: 40px;
+}
+.liste h3{
+    margin:0;
+}
+
+.flex{
+    display: flex;
+}
+.sidebar{
+    overflow: auto;
+    height: 430px;
+    width: 300px;
+}
+.sidebar a{
+   text-decoration: none;
+   color: #101107;   
+}
+.sidebar a span:first-child{
+ color: orange;
+    }
+.sidebar a:hover{
+    background: rgb(26, 127, 131);
+}
+.main{
+    background: #fff;
+    width: 1400px;
+    position:relative;
+}
+.main1{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.main .main1 .mdi{
+    font-size: 100px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 30px; 
+    margin-top: 30px; 
+}
+.icons h5{
+    margin: 0 10px;
+}
+.bac{
+    width: 90%;
+    height: 10px;
+    background: grey;
+    border-radius: 3px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.icon {
+    padding: 5px;
+    font-size: 27px;
+    text-indent: 8px;
+    vertical-align: middle;   
+}
+.parent .icon #play{
+    border: 1px solid grey;
+}
+.parent .icon #backward{
+    border: 1px solid grey;
+}
+.parent .icon #stop{
+    border: 1px solid grey;
+}
+.parent .icon #forward{
+    border: 1px solid grey;
+}
+.parent .icon #screen{
+    border: 1px solid grey;
+}
+.parent .icon #list{
+    border: 1px solid grey;
+}
+.parent .icon #repeat{
+    border: 1px solid grey;
+}
+.parent .volume{
+    display:inline-block;
+    margin-left: auto;
+    text-indent: 430px;
+    font-size: 27px;
+}
+
+
